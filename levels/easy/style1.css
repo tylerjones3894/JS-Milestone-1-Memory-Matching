@@ -1,10 +1,10 @@
-#level {
+/* #level {
     text-align: center;
     font-size: 3em;
     font-weight: bold;
-}
+} */
 
-.parent {
+/* .parent {
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
@@ -12,43 +12,59 @@
     flex-wrap: wrap;
 }
 
-.card1 {
+#row1, #row2 {
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* #row2 {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+
+/* .card1 {
     width: 200px;
-    height: 300px;
+    height: 250px;
     background: black;
 }
 .card2 {
     width: 200px;
-    height: 300px;
+    height: 250px;
     background: black;
 }
 .card3 {
     width: 200px;
-    height: 300px;
+    height: 250px;
     background: black;
 }
 .card4 {
     width: 200px;
-    height: 300px;
+    height: 250px;
     background: black;
 }
 .card5 {
     width: 200px;
-    height: 300px;
+    height: 250px;
     background: black;
 }
 .card6 {
     width: 200px;
-    height: 300px;
+    height: 250px;
     background: black;
 }
 .card7 {
     width: 200px;
-    height: 300px;
+    height: 250px;
     background: black;
 }
 .card8 {
     width: 200px;
-    height: 300px;
+    height: 250px;
     background: black;
-}
+}  */
