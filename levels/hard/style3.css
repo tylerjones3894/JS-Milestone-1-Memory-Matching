@@ -7,7 +7,34 @@
 body {
     height: 100vh;
     display: flex;
-    background: #060AB2
+    background-color: #FB33DB;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(60deg, #af0a93 25%, transparent 25.5%, transparent 75%, #af0a93 75%, #af0a93), linear-gradient(60deg, #af0a93 25%, transparent 25.5%, transparent 75%, #af0a93 75%, #af0a93);
+    background-size: 22px 39px;
+    background-position: 0 0, 0 0, 11px 19px, 11px 19px, 0 0, 11px 19px;
+}
+
+#header {
+    color: white;
+    text-align: center;
+    font-size: 10em;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 4px 4px #0310EA;
+}
+
+nav a {
+    color: white;
+    text-align: left;
+    font-size: 3em;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 4px 4px #0310EA;
+}
+
+nav a:hover {
+    color: black;
 }
 
 .memoryGame {
@@ -44,7 +71,7 @@ body {
     padding: 20px;
     position: absolute;
     border-radius: 5px;
-    background: #1c7ccc;
+    background: black;
     backface-visibility: hidden;
 }
 
