@@ -1,4 +1,12 @@
+const cards = document.querySelectorAll('.memoryCard');
 
+let hasFlippedCard
+
+function flipCard() {
+    this.classList.toggle('flip');
+}
+
+cards.forEach(card => card.addEventListener('click', flipCard))
 
 // const array = [{
 //     imgSrc: "image path", index: 0,
