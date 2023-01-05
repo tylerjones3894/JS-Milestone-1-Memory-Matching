@@ -1,4 +1,5 @@
 const cards = document.querySelectorAll('.memoryCard');
+const resultDisplay = document.querySelector('#result')
 
 let hasFlippedCard = false;
 let lockBoard = false;
@@ -25,6 +26,13 @@ function flipCard() {
 function checkForMatch() {
     if (firstCard.dataset.framework === secondCard.dataset.framework) {
         disableCards()
+
+        resultDisplay.innerHTML = 'Its a match!';
+
+        setTimeout(() => {
+            resultDisplay.innerHTML = '';
+        }, 2000);
+        
     } else {
         unflipCards()
     }
@@ -46,6 +54,12 @@ function unflipCards() {
 
         resetBoard()
         }, 1500);
+
+        resultDisplay.innerHTML = 'Not a match:(';
+
+        setTimeout(() => {
+            resultDisplay.innerHTML = '';
+        }, 2000);
 }
 
 function resetBoard() {

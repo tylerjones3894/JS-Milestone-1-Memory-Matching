@@ -9,6 +9,7 @@ body {
     display: flex;
     background-color: #FFFF00;
     opacity: 1;
+     /* The code for this background is from https://www.magicpattern.design/tools/css-backgrounds */
     background: radial-gradient(circle, transparent 20%, #FFFF00 20%, black 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #FFFF00 20%, #FFFF00 80%, transparent 80%, transparent) 27.5px 27.5px, linear-gradient(black 2.2px, transparent 2.2px) 0 -1.1px, linear-gradient(90deg, black 2.2px, #FFFF00 2.2px) -1.1px 0;
     background-size: 55px 55px, 55px 55px, 27.5px 27.5px, 27.5px 27.5px;
 }
@@ -36,6 +37,15 @@ nav a:hover {
     color: black;
 }
 
+#result {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 4px 4px #0310EA;
+}
+
 .memoryGame {
     width: 800px;
     height: 420px;
@@ -46,6 +56,8 @@ nav a:hover {
 }
 
 .memoryCard {
+    /* Subtracting 10px from the width and height 
+    makes up for the space added by the margin */
     width: calc(20% - 10px);
     height: calc(50% - 10px);
     margin: 5px;
