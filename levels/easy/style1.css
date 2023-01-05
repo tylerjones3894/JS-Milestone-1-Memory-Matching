@@ -33,6 +33,7 @@ nav a {
     text-decoration: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 4px 4px #0310EA;
+    display: block;
 }
 
 nav a:hover {
@@ -42,7 +43,16 @@ nav a:hover {
 #result {
     color: white;
     text-align: center;
-    font-size: 3em;
+    font-size: 4em;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 4px 4px #0310EA;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 2em;
     font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 4px 4px #0310EA;
